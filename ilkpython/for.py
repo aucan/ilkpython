@@ -34,7 +34,7 @@ for i in liste:
     
 print("--------------------")
 
-liste= [1,2,3,[3.4,3.8],4]
+liste= [1,2,3,[3.4,3.8],4,("selman","al",31,2,21.9,"ankara")]
 
 for i in liste:
     if type(i) not in [list,tuple]:
