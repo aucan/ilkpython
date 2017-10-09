@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bfdf40bc-cb03-4294-87a2-c9b07c6b1ff6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>dosya.py</StartupFile>
+    <StartupFile>kelimesay.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,19 +34,31 @@
     <Compile Include="global.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="kelimesay.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="module2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="oop.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="recursion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="imdbtopfilm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sozluk.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="usemodul.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="veritabani.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="while.py">
