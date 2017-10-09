@@ -9,7 +9,7 @@ def temizle(girdi):
     return girdi
     
     
-url="http://cs.hacettepe.edu.tr/mizyonvizyon.html"
+url="http://www.python.tc/python-nedir/"
 
 tumkelimeler={}
 
@@ -17,7 +17,7 @@ r= requests.get(url)
 
 soup = BeautifulSoup(r.content,"html.parser")
 
-for p in soup.find_all("div",{"class":"icerik"}):
+for p in soup.find_all("p"):
     icerik= p.text
     kelimeler=icerik.lower().split()
     
@@ -30,10 +30,6 @@ for p in soup.find_all("div",{"class":"icerik"}):
                 tumkelimeler[kelime]=1
 
                  
-for k,s in  sorted(tumkelimeler.items(),key=operator.itemgetter(1)) :
-    print(k,s)
-    
-
-
-    
-    
+for k,s in  sorted(tumkelimeler.items(),key=operator.itemgetter(1),reverse=True) :
+    if s>10 :
+        print(k,s)
