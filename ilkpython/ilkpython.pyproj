@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bfdf40bc-cb03-4294-87a2-c9b07c6b1ff6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>kelimesay.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,52 +23,52 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dosya.py">
+    <Compile Include="12dosya.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fonks.py">
+    <Compile Include="07fonks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="for.py">
+    <Compile Include="05for.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="global.py">
+    <Compile Include="02global.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="kelimesay.py">
+    <Compile Include="16kelimesay.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module1.py">
+    <Compile Include="09module1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module2.py">
+    <Compile Include="10module2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="oop.py">
+    <Compile Include="13oop.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="recursion.py">
+    <Compile Include="08recursion.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="imdbtopfilm.py">
+    <Compile Include="15imdbtopfilm.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="sozluk.py">
+    <Compile Include="04sozluk.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="usemodul.py">
+    <Compile Include="11usemodul.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="veritabani.py">
+    <Compile Include="14veritabani.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="while.py">
+    <Compile Include="06while.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ifelifelse.py">
+    <Compile Include="03ifelifelse.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ilkpython.py" />
+    <Compile Include="01ilkpython.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
